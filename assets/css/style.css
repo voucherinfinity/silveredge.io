@@ -200,6 +200,9 @@
                                                                      .header-layout6 .logo-shape {
                                                                          width: 300px
                                                                      }
+                                                                     .about-gap{
+                                                                        margin-top: 4rem !important;
+                                                                     }
                                                                  }
                                                                  
                                                                  @media (max-width: 991px) {
