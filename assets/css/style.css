@@ -1081,6 +1081,16 @@
                                                                                                  -webkit-transition: 0.3s ease-in-out;
                                                                                                  transition: 0.3s ease-in-out
                                                                                              }
+                                                                                             .why-thumb7 .why-thumb-wrap {
+    background: var(--primary-color);
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+    max-width: 220px;
+    position: absolute;
+    right: 0;
+    bottom: 46px;
+}
                                                                                              @media (max-width: 1600px) {
     .cta-sec2,
     .cta-sec {
@@ -1484,16 +1494,7 @@ section {
 .why-thumb7 {
     position: relative;
 }
-.why-thumb7 .why-thumb-wrap {
-    background: var(--primary-color);
-    display: inline-block;
-    text-align: center;
-    padding: 40px;
-    max-width: 220px;
-    position: absolute;
-    right: 0;
-    bottom: 46px;
-}
+
 
 .why-thumb7 .why-thumb-wrap .about-counter_title {
     color: var(--white-color);
