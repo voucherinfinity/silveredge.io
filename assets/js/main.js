@@ -148,3 +148,27 @@ setInterval(triggerImageAnimations, 7000);
 
 // }
 // console.log(table);
+
+const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        992: {
+            slidesPerView: 3
+        },
+        768: {
+            slidesPerView: 2
+        },
+        0: {
+            slidesPerView: 1
+        }
+    }
+});
