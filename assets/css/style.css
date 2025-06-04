@@ -1081,6 +1081,60 @@
                                                                                                  -webkit-transition: 0.3s ease-in-out;
                                                                                                  transition: 0.3s ease-in-out
                                                                                              }
+                                                                                             .why-thumb7 .why-thumb-wrap {
+    background: var(--primary-color);
+    display: inline-block;
+    text-align: center;
+    padding: 40px;
+    max-width: 220px;
+    position: absolute;
+    right: 0;
+    bottom: 46px;
+}
+                                                                                             @media (max-width: 1600px) {
+    .cta-sec2,
+    .cta-sec {
+        background-size: 90.3% 100%
+    }
+    .cta-sec7 .cta-thumb7 {
+        left: -100px !important
+    }
+}
+
+@media (max-width: 1500px) {
+    .cta-sec2,
+    .cta-sec {
+        background-size: cover;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        margin: 0
+    }
+    .cta-sec2 .cta-title {
+        padding: 0
+    }
+    .cta-btn-group {
+        margin: 0
+    }
+    .cta-sec2 {
+        margin-bottom: -120px
+    }
+    .cta-sec7 .cta-thumb7 {
+        left: -180px !important
+    }
+}
+
+@media (max-width: 1399px) {
+    .cta-sec7 .cta-thumb7 {
+        left: -200px !important
+    }
+}
+@media (max-width: 1200px) {
+    .cta-sec7 .cta-thumb7 {
+        left: -220px !important;
+        width: 53%
+    }
+}
                                                                                              
                                                                                              @media only screen and (max-width: 1276px) {
                                                                                                  /* This targets all devices with a screen width of 768px or more */
@@ -1103,6 +1157,19 @@
                                                                                                  .sec-title.mb-50 {
                                                                                                      margin-bottom: 40px
                                                                                                  }
+                                                                                                 .cta-sec7 .cta-thumb7 {
+                                                                                                    left: -300px !important;
+                                                                                                    width: 64%
+                                                                                                }
+                                                                                             }
+                                                                                             @media only screen and (max-width: 992px) {
+                                                                                                    .order-lg-2 {
+                                                                                                    -webkit-box-ordinal-group: 3 !important;
+                                                                                                    -webkit-order: 2 !important;
+                                                                                                    -ms-flex-order: 2!important;
+                                                                                                    order: 2 !important;
+                                                                                                    }
+                                                                                                
                                                                                              }
                                                                                              
                                                                                              @media only screen and (max-width: 991px) {
@@ -1183,6 +1250,17 @@
                                                                                                      padding: 0;
                                                                                                      border: 0
                                                                                                  }
+                                                                                                 .why-thumb7 .why-thumb-wrap {
+                                                                                                    padding: 30px;
+                                                                                                    max-width: none;
+                                                                                                    text-align: center;
+                                                                                                    position: initial;
+                                                                                                    margin-top: 20px
+                                                                                                }
+                                                                                                .why-thumb7 .why-thumb-wrap .about-counter_title {
+                                                                                                    line-height: initial;
+                                                                                                    font-size: 20px
+                                                                                                }
                                                                                              }
                                                                                              
                                                                                              @media only screen and (max-width: 434px) {
@@ -1393,3 +1471,37 @@
                                                                                                  position: absolute;
                                                                                                  z-index: -1;
                                                                                              }
+                                                                                             .th-btn.style3 {
+                                                                                                background: var(--white-color);
+                                                                                                color: var(--title-color);
+                                                                                            }
+                                                                                            .title-area {
+    margin-bottom: calc(var(--section-title-space) - 12px);
+    position: relative;
+    z-index: 2
+}
+.cta-title {
+    margin: 0;
+    color: var(--white-color);
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: -0.25em
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.why-thumb7 {
+    position: relative;
+}
+
+
+.why-thumb7 .why-thumb-wrap .about-counter_title {
+    color: var(--white-color);
+    line-height: 34px;
+    margin-bottom: 30px
+}
+
+.why-thumb7 .why-thumb-wrap .thumb img {
+    border-radius: 50%
+}
