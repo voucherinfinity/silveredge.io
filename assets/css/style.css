@@ -1553,19 +1553,23 @@
     transition: 0.4s all;
     z-index: 1;
 }
-.service-box:hover {
+.swiper-slide .service-box:hover {
     background: var(--primary-color)
 }
 
-.service-box:hover .service-box_inner {
+.swiper-slide .service-box:hover .service-box_inner {
     opacity: 0.15
 }
-.service-box:hover h6 a{
+.swiper-slide .service-box:hover h6 a{
     color: var(--white-color);
 }
 
-.service-box:hover p{
+.swiper-slide .service-box:hover p{
     color: var(--white-color);
+}
+.swiper-slide .service-box:hover img{
+    color: var(--white-color);
+    background-color: var(--white-color);
 }
 .service-box:hover .service-box_inner img {
     -webkit-filter: brightness(99);
