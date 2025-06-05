@@ -1444,6 +1444,7 @@
                                                                                        .carousel-control-next {
                                                                                            right: -170px !important;
                                                                                        } */
+<<<<<<< HEAD
                                                                                                             
                                                                                                             .service-box .rounded-circle {
                                                                                                                 border-radius: 50% !important;
@@ -1605,3 +1606,153 @@
                                                                                                                 position: relative;
                                                                                                                 z-index: 1;
                                                                                                             }
+=======
+                                                                                                   
+                                                                                                   .service-box .rounded-circle {
+                                                                                                       border-radius: 50% !important;
+                                                                                                       height: 100px;
+                                                                                                       width: 100px;
+                                                                                                       margin-top: -4rem;
+                                                                                                       background-color: var(--primary-color, #007bff);
+                                                                                                   }
+                                                                                                   
+                                                                                                   .icon-btn-with-text {
+                                                                                                       display: inline-flex;
+                                                                                                       align-items: center;
+                                                                                                       gap: 5px;
+                                                                                                       text-decoration: none;
+                                                                                                   }
+                                                                                                   
+                                                                                                   .cta-sec7 {
+                                                                                                       padding: 50px;
+                                                                                                       overflow: hidden;
+                                                                                                   }
+                                                                                                   
+                                                                                                   .shape-mockup-wrap {
+                                                                                                       z-index: 2;
+                                                                                                       position: relative;
+                                                                                                   }
+                                                                                                   
+                                                                                                   .shape-mockup {
+                                                                                                       position: absolute;
+                                                                                                       z-index: -1;
+                                                                                                   }
+                                                                                                   
+                                                                                                   .th-btn.style3 {
+                                                                                                       background: var(--white-color);
+                                                                                                       color: var(--title-color);
+                                                                                                   }
+                                                                                                   
+                                                                                                   .title-area {
+                                                                                                       margin-bottom: calc(var(--section-title-space) - 12px);
+                                                                                                       position: relative;
+                                                                                                       z-index: 2
+                                                                                                   }
+                                                                                                   
+                                                                                                   .cta-title {
+                                                                                                       margin: 0;
+                                                                                                       color: var(--white-color);
+                                                                                                       font-size: 40px;
+                                                                                                       line-height: 50px;
+                                                                                                       margin-top: -0.25em
+                                                                                                   }
+                                                                                                   
+                                                                                                   section {
+                                                                                                       display: block;
+                                                                                                       unicode-bidi: isolate;
+                                                                                                   }
+                                                                                                   
+                                                                                                   .why-thumb7 {
+                                                                                                       position: relative;
+                                                                                                   }
+                                                                                                   
+                                                                                                   .why-thumb7 .why-thumb-wrap .about-counter_title {
+                                                                                                       color: var(--white-color);
+                                                                                                       line-height: 34px;
+                                                                                                       margin-bottom: 30px
+                                                                                                   }
+                                                                                                   
+                                                                                                   .why-thumb7 .why-thumb-wrap .thumb img {
+                                                                                                       border-radius: 50%
+                                                                                                   }
+                                                                                                   
+                                                                                                   .sec-title {
+                                                                                                       margin-bottom: calc(var(--section-title-space) - 12px);
+                                                                                                       margin-top: -0.23em;
+                                                                                                       font-weight: 800;
+                                                                                                   }
+                                                                                                   .feature-slider-wrap {
+    margin: -15px 0;
+    margin-right: calc(-90px - 30px);
+    position: relative;
+    z-index: 1;
+}
+.feature-slider-wrap .feature-slider .service-box.style2 {
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    margin: 15px 0;
+}
+
+.service-box.style2 {
+    position: relative;
+    border: 0;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.08);
+    padding: 40px 40px 31px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    overflow: hidden;
+}
+.service-box {
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.08);
+    background: var(--white-color);
+    padding: 43px 40px 31px;
+    border-top: 3px solid var(--primary-color);
+    position: relative;
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+    z-index: 1;
+}
+.swiper-slide .service-box:hover {
+    background: var(--primary-color)
+}
+
+.swiper-slide .service-box:hover .service-box_inner {
+    opacity: 0.15
+}
+.swiper-slide .service-box:hover h6 a{
+    color: var(--white-color);
+}
+
+.swiper-slide .service-box:hover p{
+    color: var(--white-color);
+}
+.swiper-slide .service-box:hover img{
+    color: var(--white-color);
+    background-color: var(--white-color);
+}
+.service-box:hover .service-box_inner img {
+    -webkit-filter: brightness(99);
+    filter: brightness(99)
+}
+
+.service-box:hover .service-box_icon .global-icon {
+    background: var(--white-color);
+    border-color: var(--primary-color)
+}
+
+.service-box:hover .service-box_icon .global-icon img {
+    -webkit-filter: none;
+    filter: none
+}
+
+.service-box:hover .service-box_icon .global-icon:after {
+    border-color: var(--white-color);
+    -webkit-animation: spin 7s infinite;
+    animation: spin 7s infinite
+}
+
+.service-box:hover .service-box_text,
+.service-box:hover .service-box_title a {
+    color: var(--white-color)
+}
+>>>>>>> 1330cf3e16c5da02396055a7d61d79afa6f07a60
