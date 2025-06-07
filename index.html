@@ -702,8 +702,12 @@
                         <h2 class="sec-title">What our clients say about us</h2>
                     </div>
                     <div class="testimonial-slider5-arrow mb-lg-0 mb-30">
-                        <button data-slick-prev="#testimonial-slider5" class="slick-arrow slick-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
-                        <button data-slick-next="#testimonial-slider5" class="slick-arrow slick-next"><i class="fa-regular fa-arrow-right-long"></i></button>
+                        <button data-slick-prev="#testimonial-slider5" class="slick-arrow slick-prev">
+                            <i class="fa-regular fa-arrow-left-long"></i>
+                        </button>
+                        <button data-slick-next="#testimonial-slider5" class="slick-arrow slick-next">
+                            <i class="fa-regular fa-arrow-right-long"></i>
+                        </button>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -887,6 +891,25 @@
             </div>
         </div>
     </section>
+
+    <script>
+        $(document).ready(function() {
+            $('#testimonial-slider5').slick({
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                prevArrow: $('[data-slick-prev="#testimonial-slider5"]'),
+                nextArrow: $('[data-slick-next="#testimonial-slider5"]'),
+                responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }]
+            });
+        });
+    </script>
 
     <!-- <section class="process-area5 overflow-hidden space background-image" style="background-image: url(https://themeholy.com/html/insurax/demo/assets/img/shape/process-bg-shape.png);">
         <div class="container">
