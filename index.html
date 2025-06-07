@@ -711,7 +711,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <div class="th-carousel testi-slider5 slick-initialized slick-slider" id="testimonial-slider5" data-slide-show="2" data-lg-slide-show="1" data-dots="false" data-arrows="false">
+                    <div class="th-carousel testi-slider5 slick-initialized slick-slider" id="testimonial-slider" data-slide-show="2" data-lg-slide-show="1" data-dots="false" data-arrows="false">
                         <div class="slick-list draggable">
                             <div class="slick-track" style="opacity: 1; width: 6000px; transform: translate3d(-1200px, 0px, 0px);">
                                 <div class="testi-box5 slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" style="width: 560px;" tabindex="-1">
@@ -893,21 +893,13 @@
     </section>
 
     <script>
-        $(document).ready(function() {
-            $('#testimonial-slider5').slick({
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                arrows: true,
-                dots: false,
-                prevArrow: $('[data-slick-prev="#testimonial-slider5"]'),
-                nextArrow: $('[data-slick-next="#testimonial-slider5"]'),
-                responsive: [{
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }]
-            });
+        $('testimonial-slider').slick({
+            prevArrow: '<button class="slick-prev">←</button>',
+            nextArrow: '<button class="slick-next">→</button>',
+            infinite: true,
+            slidesToShow: 2, // or 1 as needed
+            slidesToScroll: 1,
+            autoplay: true,
         });
     </script>
 
